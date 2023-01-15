@@ -1,15 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import altair as alt
-from streamlit_folium import folium_static
-import folium
 from PIL import Image
-from apyori import apriori
-
-import warnings
-warnings.filterwarnings('ignore')
-
 
 dataset = pd.read_csv('dataset.csv')
 cleaned_dataset = pd.read_csv('cleaned_data.csv')
